@@ -1,0 +1,14 @@
+{
+  "name": "bemhtml",
+  "version": "0.1.0",
+  "description": "BEMHTML syntax support in Atom",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "https://github.com/jchouse/language-bemhtml",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jchouse/language-bemhtml.git"
+  }
+}
