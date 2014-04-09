@@ -19,13 +19,6 @@
     'name': 'meta.class.js'
   }
   {
-    'captures':
-      '1':
-        'name': 'bemhtml.block.def'
-    'comment': 'bemhtml block definition'
-    'match': 'block'
-  }
-  {
     'begin': '([a-zA-Z_?.$][\\w?.$]*)\\.(prototype)\\.([a-zA-Z_?.$][\\w?.$]*)\\s*(=)\\s*(function)?\\s*(\\()'
     'beginCaptures':
       '1':
@@ -301,11 +294,11 @@
     'name': 'keyword.control.js'
   }
   {
-    'match': '\b(block|elem(?=[\s*\w+])|mod|elemMod)\b'
+    'match': '\\b(block|elem(?=[\\s*\\w+])|mod|elemMod)\\b'
     'name': 'keyword.predicate.bemhtml'
   }
   {
-    'match': '\b(elem|tag|bem|mix|cls|js|jsAttr|attrs|content)(?=\s*\:)'
+    'match': '\\b(elem|tag|bem|mix|cls|js|jsAttr|attrs|content)(?=\\s*\\:)'
     'name': 'constant.language.predicate.bemhtml'
   }
   {
