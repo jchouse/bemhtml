@@ -4,7 +4,7 @@
 ]
 'firstLineMatch': '^#!.*\\bnode'
 'keyEquivalent': '^~J'
-'name': 'BEMHTML'
+'name': 'BEM'
 'patterns': [
   {
     'captures':
@@ -295,11 +295,11 @@
   }
   {
     'match': '\\b(block|elem(?=[\\s*\\w+])|mod|elemMod)\\b'
-    'name': 'keyword.predicate.bemhtml'
+    'name': 'keyword.predicate.bem'
   }
   {
     'match': '\\b(elem|tag|bem|mix|cls|js|jsAttr|attrs|content)(?=\\s*\\:)'
-    'name': 'constant.language.predicate.bemhtml'
+    'name': 'constant.language.predicate.bem'
   }
   {
     'match': '(?<!\\.)\\b(delete|in|instanceof|new|typeof|with)\\b'
@@ -432,4 +432,4 @@
         ]
       }
     ]
-'scopeName': 'source.bemhtml'
+'scopeName': 'source.bem'

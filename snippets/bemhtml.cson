@@ -1,4 +1,4 @@
-'.source.js':
+'.source.bem':
   'Object Method':
     'prefix': ':f'
     'body': '${1:method_name}: function (${2:attribute}) {\n\t$3\n}${4:,}'

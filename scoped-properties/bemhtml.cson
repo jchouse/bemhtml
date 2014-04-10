@@ -1,4 +1,4 @@
-'.source.js':
+'.source.bem':
   'editor':
     'commentStart': '// '
     'foldEndPattern': '^\\s*\\}|^\\s*\\]|^\\s*\\)'
