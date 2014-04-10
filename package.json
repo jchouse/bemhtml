@@ -1,5 +1,5 @@
 {
-  "name": "bem",
+  "name": "bemhtml",
   "version": "0.3.0",
   "description": "BEMHTML syntax support in Atom",
   "engines": {
