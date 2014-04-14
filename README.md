@@ -9,7 +9,7 @@ Based (https://github.com/feugenix/BEMHTMLSublime).
 Contributions are greatly appreciated. Please fork this repository and open a
 pull request to add snippets, make grammar tweaks, etc.
 
-## Snipets
+## Snippets
 **don't be afraid to press ⇥**
 
 block
@@ -24,5 +24,5 @@ block + elem
 mod
     `m` -> `mod modName modValue,`
 
-elemMod':
+elemMod:
     `em` -> `elemMod modName modValue,`
