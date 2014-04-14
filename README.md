@@ -3,7 +3,26 @@
 Adds syntax highlighting and snippets to bemhtml file in Atom.
 
 Originally (https://github.com/atom/language-javascript).
+
 Based (https://github.com/feugenix/BEMHTMLSublime).
 
 Contributions are greatly appreciated. Please fork this repository and open a
 pull request to add snippets, make grammar tweaks, etc.
+
+## Snipets
+**don't be afraid to press ⇥**
+
+block
+    `b` -> `block blockName,`
+
+elem
+    `e` -> `elem elemName,`
+
+block + elem
+    `be` -> `block blockName, elem elemName,`
+
+mod
+    `m` -> `mod modName modValue,`
+
+elemMod':
+    `em` -> `elemMod modName modValue,`
