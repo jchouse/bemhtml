@@ -86,3 +86,24 @@
     'elemMods':
         'prefix': 'em:'
         'body': 'elemMods: {\n\t${1:modName}: ${2:\'${3:modValue}\'}${4:}\n}${5:,}'
+    'mix':
+        'prefix': 'mi:'
+        'body': 'mix: [ { block: ${1:\'${2:blockName}\'} } ]'
+    'content:':
+        'prefix': 'c:'
+        'body': 'content: [\n\t{\n\t\t${1:...}\n\t}\n]'
+    'js':
+        'prefix': 'js:'
+        'body': 'js: {\n\t${1:...}\n}'
+    'tag':
+        'prefix': 't:'
+        'body': 'tag: ${1:\'${2:tagName}\'}${3:,}'
+    'attrs':
+        'prefix': 'a:'
+        'body': 'attrs: {\n\t${1:...}\n}'
+    'cls':
+        'prefix': 'cl:'
+        'body': 'cls: ${1:\'${2:className}\'}${3:,}'
+    'bem false':
+        'prefix': 'bf:'
+        'body': 'bem: false${1:,}'

@@ -42,3 +42,24 @@ elemMod
 
 elemMods
     `em:` -> `elemMods: { modName: 'modValue' },`
+
+mix
+    `mi:` -> `mix: [ { block: blockName } ]`
+
+content
+    `c:` -> `content: [ { ... } ]`
+
+js
+    `js:` -> `js: { ... }`
+
+tag
+    `t:` -> `tag: 'tagName',`
+
+attrs
+    `a:` -> `attrs: { ... }`
+
+cls
+    `cl:` -> `cls: 'className',`
+
+bem: false
+    `bf:` -> `bem: false`
