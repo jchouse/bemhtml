@@ -62,15 +62,27 @@
     'block':
         'prefix': 'b'
         'body': 'block ${1:blockName}${2:,}'
+    'block: \'blockName\',':
+        'prefix': 'b:'
+        'body': 'block: ${1:\'${2:blockName}\'}${3:,}'
     'elem':
         'prefix': 'e'
         'body': 'elem ${1:elemName}${2:,}'
+    'elem: \'elemName\'':
+        'prefix': 'e:'
+        'body': 'elem: ${1:\'${2:elemName}\'}${3:,}'
     'block elem':
         'prefix': 'be'
         'body': 'block ${1:blockName}, elem ${2:elemName}${3:,}'
     'mod':
         'prefix': 'm'
         'body': 'mod ${1:modName} ${2:modValue}${3:,}'
+    'mods':
+        'prefix': 'm:'
+        'body': 'mods: {\n\t${1:modName}: ${2:\'${3:modValue}\'}${4:}\n}${5:,}'
     'elemMod':
         'prefix': 'em'
         'body': 'elemMod ${1:modName} ${2:modValue}${3:,}'
+    'elemMods':
+        'prefix': 'em:'
+        'body': 'elemMods: {\n\t${1:modName}: ${2:\'${3:modValue}\'}${4:}\n}${5:,}'

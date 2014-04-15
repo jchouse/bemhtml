@@ -19,8 +19,14 @@ To upgrade pkg, reinstall with shell command 'rm -rf bemhtml && apm instal bemht
 block
     `b` -> `block blockName,`
 
+block
+    `b:` -> `block: 'blockName',`
+
 elem
     `e` -> `elem elemName,`
+
+elem
+    `e:` -> `elem: 'elemName',`
 
 block + elem
     `be` -> `block blockName, elem elemName,`
@@ -28,5 +34,11 @@ block + elem
 mod
     `m` -> `mod modName modValue,`
 
-elemMod:
+mods
+    `m:` -> `mods: { modName: 'modValue' },`
+
+elemMod
     `em` -> `elemMod modName modValue,`
+
+elemMods
+    `em:` -> `elemMods: { modName: 'modValue' },`
