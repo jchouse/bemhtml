@@ -1,6 +1,7 @@
 'comment': 'BEMHTML Syntax: based on javascript syntax v2.0'
 'fileTypes': [
     'bemhtml',
+    'bemhtml.xjst',
     'bemtree.xjst'
 ]
 'firstLineMatch': '^#!.*\\bnode'
